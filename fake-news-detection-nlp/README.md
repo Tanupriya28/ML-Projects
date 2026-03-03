@@ -1,6 +1,6 @@
-# 📌 Fake News Detection using NLP and Deep Learning
+#  Fake News Detection using NLP and Deep Learning
 
-## 🚀 Project Overview
+##  Project Overview
 
 This project implements an end-to-end Natural Language Processing (NLP) pipeline to classify news articles as **Fake (0)** or **Real (1)** using both classical machine learning and deep learning techniques.
 
@@ -13,7 +13,7 @@ The project includes exploratory data analysis, preprocessing, feature engineeri
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 - Source: Kaggle – Fake and Real News Dataset
 - Total Samples: 44,898 articles
@@ -25,7 +25,7 @@ Stratified train-test split (80-20) was used to maintain class balance.
 
 ---
 
-## 🧹 Text Preprocessing
+##  Text Preprocessing
 
 The following preprocessing steps were applied:
 
@@ -41,7 +41,7 @@ Data leakage was strictly avoided by fitting vectorizers and tokenizers only on 
 
 ---
 
-## 📈 Exploratory Data Analysis
+##  Exploratory Data Analysis
 
 - Class distribution analysis
 - Missing value checks
@@ -55,18 +55,18 @@ Data leakage was strictly avoided by fitting vectorizers and tokenizers only on 
 
 ---
 
-## 🧠 Models Implemented
+##  Models Implemented
 
-### 1️⃣ TF-IDF + Logistic Regression
+### 1️. TF-IDF + Logistic Regression
 
 - Max features: 10,000
 - Accuracy: **98.59%**
 
-### 2️⃣ TF-IDF + Naive Bayes
+### 2️. TF-IDF + Naive Bayes
 
 - Accuracy: **93.74%**
 
-### 3️⃣ GRU Deep Learning Model
+### 3️. GRU Deep Learning Model
 
 Architecture:
 - Embedding Layer (10,000 vocab size, 64 dimensions)
@@ -86,7 +86,7 @@ Test Performance:
 
 ---
 
-## 📊 Model Evaluation
+## Model Evaluation
 
 ### Confusion Matrix
 - False Positives: 54
@@ -102,7 +102,7 @@ Test Performance:
 
 ---
 
-## 📊 Model Comparison
+##  Model Comparison
 
 | Model                | Accuracy |
 |----------------------|----------|
@@ -118,7 +118,7 @@ This highlights that for structured NLP classification problems, simpler models 
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - Python
 - Pandas
@@ -132,7 +132,7 @@ This highlights that for structured NLP classification problems, simpler models 
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 Clone the repository:
 
@@ -157,7 +157,7 @@ Or open directly in Google Colab.
 
 ---
 
-## 🎯 Key Learnings
+##  Key Learnings
 
 - Importance of preventing data leakage
 - Comparison between classical ML and deep learning
@@ -167,7 +167,7 @@ Or open directly in Google Colab.
 
 ---
 
-## 📌 Future Improvements
+##  Future Improvements
 
 - Implement Transformer-based models (BERT)
 - Hyperparameter tuning
