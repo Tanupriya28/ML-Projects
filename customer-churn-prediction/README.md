@@ -1,6 +1,6 @@
-# 📊 Customer Churn Prediction — End-to-End Machine Learning Pipeline
+#  Customer Churn Prediction — End-to-End Machine Learning Pipeline
 
-## 🚀 Project Overview
+## Project Overview
 
 This project develops a complete end-to-end machine learning system to predict customer churn using structured telecom customer data. The objective is to identify customers likely to leave the service and uncover the key factors driving churn behavior.
 
@@ -8,7 +8,7 @@ The workflow includes data preprocessing, exploratory data analysis (EDA), featu
 
 ---
 
-## 🎯 Business Problem
+##  Business Problem
 
 Customer churn significantly impacts company revenue and customer acquisition costs.  
 
@@ -21,7 +21,7 @@ The objectives of this project are to:
 
 ---
 
-## 📁 Dataset Description
+##  Dataset Description
 
 Telecom customer dataset containing demographic and account-level information.
 
@@ -41,7 +41,7 @@ Telecom customer dataset containing demographic and account-level information.
 
 ---
 
-## 🔧 Data Preprocessing
+##  Data Preprocessing
 
 - Removed non-informative identifier columns
 - Handled missing and invalid values
@@ -52,7 +52,7 @@ Telecom customer dataset containing demographic and account-level information.
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 
 Key observations:
 
@@ -65,7 +65,7 @@ Key observations:
 
 ---
 
-## 🤖 Models Implemented
+##  Models Implemented
 
 ### Baseline Models
 - Logistic Regression
@@ -80,7 +80,7 @@ Key observations:
 
 ---
 
-## 📈 Model Evaluation
+##  Model Evaluation
 
 Models were evaluated using:
 
@@ -91,7 +91,7 @@ Models were evaluated using:
 - Confusion Matrix
 - ROC Curve Analysis
 
-### 🔎 ROC-AUC Comparison
+###  ROC-AUC Comparison
 
 | Model | ROC-AUC |
 |--------|--------|
@@ -104,7 +104,7 @@ The improved Random Forest achieved the highest ROC-AUC score of **0.84**, demon
 
 ---
 
-## 🔍 Key Insights from Feature Importance
+##  Key Insights from Feature Importance
 
 Top churn-driving factors:
 
@@ -124,7 +124,7 @@ These insights support targeted marketing campaigns and data-driven retention pl
 
 ---
 
-## 🏗️ Technical Highlights
+##  Technical Highlights
 
 - End-to-end ML pipeline development
 - Multiple model comparison
@@ -136,7 +136,7 @@ These insights support targeted marketing campaigns and data-driven retention pl
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - Python  
 - Pandas  
@@ -147,7 +147,7 @@ These insights support targeted marketing campaigns and data-driven retention pl
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - SHAP-based model explainability
 - Threshold optimization for recall enhancement
