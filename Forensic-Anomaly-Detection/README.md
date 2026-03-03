@@ -1,6 +1,6 @@
-# 🕵️‍♀️ Forensic Document Integrity & Anomaly Detection
+#  Forensic Document Integrity & Anomaly Detection
 
-## 📌 Project Overview
+##  Project Overview
 This project is an end-to-end forensic analytics and anomaly detection system designed to identify suspicious patterns, inconsistencies, and potential tampering in case-related documents and records.
 
 The application combines machine learning, feature engineering, and an interactive dashboard to help analysts quickly flag high-risk cases and understand why a case was marked suspicious.
@@ -9,7 +9,7 @@ It is built as a Streamlit web application with explainable insights and visual 
 
 ---
 
-## 🎯 Problem Statement
+##  Problem Statement
 In forensic and legal datasets, cases may contain:
 - Delays in reporting (Incident, PM, FIR)
 - Repeated document modifications
@@ -21,7 +21,7 @@ This project aims to automate anomaly detection while still providing human-read
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 - CSV file upload for batch case analysis
 - Hybrid ML approach:
   - Isolation Forest (unsupervised anomaly detection)
@@ -39,7 +39,7 @@ This project aims to automate anomaly detection while still providing human-read
 
 ---
 
-## 🧪 Machine Learning Approach
+##  Machine Learning Approach
 
 ### Models Used
 - Isolation Forest  
@@ -52,7 +52,7 @@ A case is flagged as suspicious if at least one of the models identifies it as a
 
 ---
 
-## 🛠 Feature Engineering
+##  Feature Engineering
 Key engineered features include:
 - Time gaps between:
   - Incident and Postmortem
@@ -64,7 +64,7 @@ Key engineered features include:
 
 ---
 
-## 📊 Dashboard Screenshots
+##  Dashboard Screenshots
 Dashboard screenshots are available in the `screenshots/` folder and include:
 - Overall dashboard overview
 - Delay distribution
@@ -75,7 +75,7 @@ Dashboard screenshots are available in the `screenshots/` folder and include:
 
 ---
 
-## 🧑‍💻 Tech Stack
+##  Tech Stack
 - Python
 - Streamlit
 - Pandas, NumPy
@@ -87,7 +87,7 @@ Dashboard screenshots are available in the `screenshots/` folder and include:
 
 ---
 
-## ▶️ How to Run the Project
+##  How to Run the Project
 
 ### 1. Clone the repository
 git clone https://github.com/your-username/Forensic-Anomaly-Detection.git
@@ -102,7 +102,7 @@ streamlit run app.py
 ### 4. Upload a CSV File
 Use the provided cases.csv file or upload any dataset with a similar structure.
 
-## 📁 Project Structure
+##  Project Structure
 
 Forensic-Anomaly-Detection/
 │
